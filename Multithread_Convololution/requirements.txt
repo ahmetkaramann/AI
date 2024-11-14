@@ -1,0 +1,14 @@
+# Docker Engine kurulu makineden çalıştırılmalı # 
+# Aşağıdaki herbir kod proje dosyasının içinde çalıştırılmalı #
+
+# Docker image build komutu
+docker build -t conv .
+
+# Docker image run komutu
+docker run --name conv conv
+
+# Çıkış dosyalarını konteynerden yerel makineye kopyalama işlemi
+# Yeni bir terminal açılıp aşağıdaki komutlar yazılmalı ( Mevcut terminal kapatılmamalı )
+docker cp conv:/root/histogram.png ./histogram.png
+docker cp conv:/root/output.png ./output.png
+
