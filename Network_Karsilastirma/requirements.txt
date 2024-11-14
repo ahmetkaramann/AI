@@ -1,0 +1,6 @@
+# Gerekli kütüphaneleri yüklemek için aşağıdaki komutu terminalde çalıştırın:
+# pip install -r requirements.txt
+tensorflow==2.13.0  # Versiyonu güncel duruma göre ayarlayın
+scikit-learn==1.2.2  # Confusion matrix ve classification report için
+matplotlib==3.7.1  # Eğitim grafikleri için
+numpy==1.24.4  # Veri işleme için
