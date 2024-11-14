@@ -1,0 +1,6 @@
+# Gerekli kütüphaneleri yüklemek için aşağıdaki komutu terminalde çalıştırın:
+# pip install -r requirements.txt
+
+opencv-python==4.8.0.76  # Görüntü işleme için OpenCV
+numpy==1.24.4  # Veri işleme için
+matplotlib==3.7.1  # Görselleştirme için
